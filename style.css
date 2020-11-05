@@ -72,12 +72,6 @@ body {
     align-items: center;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .midpage {
     display: flex;
@@ -113,6 +107,15 @@ h2 {
 
 .show {
     padding: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    padding: 10px 100px 50px 100px;
 }
 
 .review {
