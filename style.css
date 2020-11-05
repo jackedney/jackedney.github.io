@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;1,700&display=swap');
+
+body {
+    background-image: url("erik-mclean-U-Vu_r6qyyU-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.page {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.logo {
+    margin: 15px 0px 0px 15px
+
+}
+.button {
+    margin: 0px 0px 0px 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:white;
+  }
+
+.topnav .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+ 
+.topnav input[type=text] {
+    margin-left: 0px;
+    margin-top: 0.5px;
+    font-size: 17px;
+    width: 400px;
+    height: 46.5px;
+    border-radius: 0px 10px 10px 0px;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(225, 201, 49);
+    display: inline-block;
+}
+
+.topnav .search-container button {
+    float: left;
+    padding: 0px;
+    background: none;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    outline: none;
+}
+
+.search {
+    margin: 0px 0px 0px 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.midpage {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Rosario', sans-serif;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviews img {
+    -webkit-filter: brightness(100%);
+}
+
+.reviews img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.show {
+    padding: 5px;
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewtext {
+    max-width: 1000px;
+    padding: 10px 100px 50px 100px;
+}
+
+p{
+    color: black;
+    font-size: large;
+    font-family: 'Rosario', sans-serif;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1200px) {
+    #abt {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    #srch {
+        display: none;
+    }
+}
+
+#office_az {
+    order: 0;
+}
+
+#demon_az {
+    order: -9;
+}
+
+#mindh_az {
+    order: -7;
+}
+
+#sinner_az {
+    order: -3;
+}
+
+#cobra_az {
+    order: -10;
+}
+
+#witcher_az {
+    order: -2;
+}
+
+#got_az {
+    order: -8;
+}
+
+#office {
+    order: 1;
+}
+
+#demon {
+    order: -8;
+}
+
+#mindh {
+    order: -1;
+}
+
+#sinner {
+    order: -3;
+}
+
+#cobra {
+    order: -7;
+}
+
+#witcher {
+    order: -2;
+}
+
+
+
+
+
+
+
