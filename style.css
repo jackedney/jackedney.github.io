@@ -4,6 +4,9 @@ body {
     background-image: url("erik-mclean-U-Vu_r6qyyU-unsplash.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
+    min-width: 500px;        
+    width: auto !important;  
+    width: 500px; 
 }
 
 .page {
@@ -22,11 +25,11 @@ body {
 }
 
 .logo {
-    margin: 15px 0px 0px 15px
+    margin: 15px 0px 0px 10px
 
 }
 .button {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
 }
 
 .topnav {
@@ -84,6 +87,7 @@ body {
 .midpage {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -137,13 +141,13 @@ p{
     text-align: justify;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1150px) {
     #abt {
         display:none;
     }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1015px) {
     #srch {
         display: none;
     }
